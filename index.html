@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas en la guitarra</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="inicio">
+        <h1 id="cartelInicioSuperior">Notas en la guitarra</h1>
+        <p id="cartelQueParpadea">E</p>
+        <input type="number" id="inputCantidadDeSostenidos" min="0" max="8" value="0">
+        <button type="button" id="btnInicio">Aceptar</button>
+    </div>
+<span></span>
+    <main style="display: none;">
+        <h1 id="escala">Escala de Do mayor o La menor</h1>
+        <div id="notas">
+            <h1 class='notas' id="doComoSiSostenido" style="display: none;"><span>Do3:</span>c6t8, c5t3; <span>Do4:</span>c4t10, c3t5, c2t1; <span>Do5:</span>c1t8</h1>
+            <h1 class='notas' id="do"> <span>Do3:</span>c6t8, c5t3; <span>Do4:</span>c4t10, c3t5, c2t1; <span>Do5:</span>  c1t8</h1>
+            <h1 class='notas' id="doSostenido" style="display: none;"><span>Do#3:</span> c6t9, c5t4; <span>Do#4:</span>c4t11, c3t6, c2t2; <span>Do#5:</span>c1t9</h1>        
+            <h1 class='notas' id="re"><span>Re3:</span> c6t10 c5t5 c4t0 <span>Re4:</span>c3t7 c2t3 <span>Re5:</span>c1t10</h1>
+            <h1 class='notas' id="reSostenido" style="display: none;"><span>Re#3:</span> c6t11 c5t6 c4t1 <span>Re#4:</span>c3t8 c2t4 <span>Re#5:</span>c1t11</h1>
+            <h1 class='notas' id="mi"><span>Mi2:</span> c6t0 <span>Mi3:</span>c5t7 c4t2 <span>Mi4:</span>c3t9 c2t5 c1t0</h1>
+            <h1 class='notas' id="faComoMiSostendo" style="display: none;"><span>Fa2:</span>c6t1 <span>Fa3:</span>c5t8 c4t3 <span>Fa4:</span>c3t10 c2t6 c1t1</h1>
+            <h1 class='notas' id="fa"><span>Fa2:</span>c6t1 <span>Fa3:</span>c5t8 c4t3 <span>Fa4:</span>c3t10 c2t6 c1t1</h1>
+            <h1 class='notas' id="faSostenido" style="display: none;"><span>Fa#2:</span>c6t2 <span>Fa#3:</span>c5t9 c4t4 <span>Fa#4:</span>c3t11 c2t7 c1t2</h1>
+            <h1 class='notas' id="sol"><span>Sol2:</span>c6t3 <span>Sol3:</span>c5t10 c4t5 c3t0 <span>Sol4:</span>c2t8 c1t3</h1>
+            <h1 class='notas' id="solSostenido" style="display: none;"><span>Sol#2:</span>c6t4 <span>Sol#3:</span>c5t11 c4t6 c3t1 <span>Sol#4:</span>c2t9 c1t4</h1>
+            <h1 class='notas' id="la"><span>La2:</span> c6t5 c5t0 <span>La3:</span>c4t7 c3t2 <span>La4:</span>c2t10 c1t5</h1>
+            <h1 class='notas' id="laSostenido" style="display: none;"><span>La#2:</span> c6t6 c5t1 <span>La#3:</span>c4t8 c3t3 <span>La#4:</span>c2t11 c1t6</h1>
+            <h1 class='notas' id='si'><span>Si2:</span> c6t7 c5t2 <span>Si3:</span>c4t9 c3t4 c2t0 <span>Si4:</span>c1t7</h1> 
+        </div>
+    </main>
+    <footer>Samuel Alejandro, 2 de diciembre del 2024</footer>
+</body>
+</html>
